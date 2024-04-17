@@ -289,6 +289,42 @@ body {
       @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixed-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 112.5em) {
         .card__picture--3 {
           background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); } }
+      .card__picture--4 {
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/ontario-small.jpg);
+}
+
+.card__picture--5 {
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/ns-small.jpg);
+}
+
+.card__picture--6 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nb-small.jpg);
+}
+
+.card__side--back-4 {
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+.card__side--back-5 {
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.card__side--back-6 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 112.5em) {
+  .card__picture--4 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/ontario.jpg);
+  }
+  .card__picture--5 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/novascotia.jpg);
+  }
+  .card__picture--6 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/newbrunswick.jpg);
+  }
+}
+
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -309,6 +345,12 @@ body {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+    .card__heading-span--4 {
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+    .card__heading-span--5 {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+    .card__heading-span--6 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
