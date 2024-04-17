@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Canada | Explore Canada</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <link rel="stylesheet" href="css/icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <style>
+    .header::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+      z-index: 1;
+    }
+    .header__text-box {
+      position: relative;
+      z-index: 2; /* Ensures text is above the overlay */
+    }
+  </style>
+</head>
+<body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+        <li class="navigation__item"><a href="about.html" class="navigation__link">About Canada</a></li>
+        <li class="navigation__item"><a href="destinations.html" class="navigation__link">Popular Destinations</a></li>
+        <li class="navigation__item"><a href="stories.html" class="navigation__link">Stories</a></li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header" style="background-image: url('img/about-canada-bg.jpg');">
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">About Canada</span>
+        <span class="heading-primary--sub">Discover the diversity</span>
+      </h1>
+    </div>
+  </header>
+  <main>
+    <section class="section-about">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          A vast land with a rich history
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">Geographical diversity</h3>
+          <p class="paragraph">
+            Canada, the second-largest country in the world, is celebrated for its expansive and diverse natural landscapes. From the icy Arctic tundra in the north to the rugged Rocky Mountains and lush, verdant forests, each province offers a unique set of breathtaking scenery. Along the Atlantic coast, the maritime provinces showcase rugged cliffs and quaint fishing villages, while the western coast boasts rainforests and picturesque islands. The central plains feature vast, open prairies, and the far north is marked by the mystical aurora borealis lighting up the night sky. This rich mosaic of environments not only defines Canada's geographic character but also highlights its vast cultural heritage, intertwining with its national identity. The immense variety of landscapes also supports a wide array of wildlife, from polar bears in the Arctic to moose in the boreal forests, further underscoring the natural wealth of the nation.
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">Cultural tapestry</h3>
+          <p class="paragraph">
+            The culture of Canada has been shaped by waves of migration that have combined to form a unique blend of art, cuisine, and tradition. Indigenous peoples, French and British settlers, and recent immigrants from around the globe have all made their mark. This cultural mosaic is reflected in the vibrant music scenes across the country, from traditional folk and indigenous music to modern pop and hip-hop. Canadian literature and theater also draw heavily from these diverse influences, often exploring themes of identity and cultural intersection.
+
+In terms of cuisine, the influence is equally diverse, ranging from indigenous dishes such as bannock and game meats to poutine, a popular dish with roots in Quebec. The culinary scene is further enriched by contributions from Chinese, Italian, and Indian communities, among others, making Canada a hotspot for food lovers seeking global flavors.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">Economic Strength</h3>
+          <p class="paragraph">
+            With a robust economy, Canada is one of the wealthiest nations and is a member of the Group of Seven (G7). It has a diverse economy with a focus on natural resources, manufacturing, and technology. Key sectors such as oil and gas, mining, and lumber play pivotal roles in economic performance, alongside a burgeoning technology sector that includes telecommunications, digital media, and software development. Canadian financial institutions are also recognized globally for their stability and efficiency. This economic diversity not only fuels domestic prosperity but also positions Canada as a significant player on the international stage, fostering strong trading relationships with countries around the world. Additionally, Canada's commitment to sustainability and green technologies is shaping future economic policies, aiming to balance economic growth with environmental stewardship.
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">Natural Wonders</h3>
+          <p class="paragraph">
+            Canada is home to several world-famous natural wonders such as Niagara Falls, the Rocky Mountains, and the Northern Lights. Each of these iconic sites attracts millions of visitors each year, enhancing Canada's appeal as a top global destination for tourists. Beyond these well-known attractions, Canada also offers a vast array of outdoor recreational activities like hiking, skiing, and canoeing, which are bolstered by its varied and scenic landscapes. The commitment to preserving these natural environments through national parks and protected areas ensures that they remain pristine and accessible for future generations. This dedication not only supports tourism but also contributes to the cultural and environmental heritage of the nation. The diversity of these experiences reflects the country's vast geographical expanse and rich biodiversity, showcasing everything from coastal ecosystems to mountainous terrains, attracting nature enthusiasts and adventure seekers alike.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__logo-box">
+      <img src="img/favicon.png" alt="Full logo" class="footer__logo">
+    </div>
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer__navigation">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+            <li class="footer__item"><a href="#" the class="footer__link">Privacy policy</a></li>
+            <li the class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-1-of-2">
+        <p class="footer__copyright">
+          &copy; Explore Canada. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
