@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/icons.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <script defer src="js/script.js"></script>
   </head>
   <body>
     <div class="navigation">
@@ -189,7 +190,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$599</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">Buy now</a>
+                  <a href="#popup" class="btn btn--white">See Deals</a>
                 </div>
               </div>
             </div>
@@ -220,7 +221,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$699</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">Buy now</a>
+                  <a href="#popup" class="btn btn--white">See Deals</a>
                 </div>
               </div>
             </div>
@@ -251,7 +252,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$899</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">Buy now</a>
+                  <a href="#popup" class="btn btn--white">See Deals</a>
                 </div>
               </div>
             </div>
@@ -284,7 +285,7 @@
               <p class="card__price-only">Only</p>
               <p class="card__price-value">$799</p>
             </div>
-            <a href="#popup" class="btn btn--white">Buy now</a>
+            <a href="#popup" class="btn btn--white">See Deals</a>
           </div>
         </div>
       </div>
@@ -312,7 +313,7 @@
               <p class="card__price-only">Only</p>
               <p class="card__price-value">$649</p>
             </div>
-            <a href="#popup" class="btn btn--white">Buy now</a>
+            <a href="#popup" class="btn btn--white">See Deals</a>
           </div>
         </div>
       </div>
@@ -340,7 +341,7 @@
               <p class="card__price-only">Only</p>
               <p class="card__price-value">$559</p>
             </div>
-            <a href="#popup" class="btn btn--white">Buy now</a>
+            <a href="#popup" class="btn btn--white">See Deals</a>
           </div>
         </div>
       </div>
@@ -528,36 +529,17 @@
     </footer>
 
     <div class="popup" id="popup">
-      <div class="popup__content">
-        <div class="popup__img-box">
-          <img src="img/nat-8.jpg" alt="Photo 1" class="popup__img" />
-          <img src="img/nat-9.jpg" alt="Photo 2" class="popup__img" />
-        </div>
+    <div class="popup__content">
+        <a href="#close" class="popup__close">&times;</a>
         <div class="popup__text-box">
-          <a href="#section-tours" class="popup__close">&times;</a>
-          <h2 class="heading-secondary u-margin-bottom-small">
-            Start booking now
-          </h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">
-            Important &ndash; Please read these terms before booking
-          </h3>
-          <p class="popup__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas accusamus officiis laborum dolores animi
-            recusandae aspernatur esse laboriosam qui!Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Necessitatibus voluptas accusamus
-            officiis laborum dolores animi recusandae aspernatur esse laboriosam
-            qui!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas accusamus officiis laborum dolores animi
-            recusandae aspernatur esse laboriosam qui!Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Necessitatibus voluptas accusamus
-            officiis laborum dolores animi recusandae aspernatur esse laboriosam
-            qui!
-          </p>
-          <a href="#" class="btn btn--green">Book now</a>
+            <h2 class="heading-secondary" id="popup-heading"></h2>
+            <h3 class="heading-tertiary" id="popup-subheading"></h3>
+            <p class="popup__text" id="popup-description"></p>
+            <a href="#" class="btn btn--green">Book now</a>
         </div>
-      </div>
     </div>
+</div>
+
 
     <!-- <section class="grid-test">
       <div class="row">
